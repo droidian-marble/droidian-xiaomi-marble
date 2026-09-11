@@ -1,0 +1,13 @@
+xiaomi_marble:
+  type: rootfs
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 32
+  use_internal_repository: false
+
+  packages:
+    - adaptation-xiaomi-marble
+    - linux-bootimage-xiaomi-marble
+    - linux-headers-xiaomi-marble
+    - linux-image-xiaomi-marble
